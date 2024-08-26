@@ -97,7 +97,25 @@ Follow these steps to set up the project locally:
 
 Here's an overview of the project structure:
 
-chat-app/ │ ├── server/ # Backend code │ ├── src/ │ │ ├── controllers/ # Controllers for handling requests │ │ ├── models/ # Mongoose models │ │ ├── routes/ # Express routes │ │ ├── socket/ # Socket.io setup and events │ │ └── app.js # Main app setup │ └── .env # Environment variables │ └── client/ # Frontend code ├── src/ │ ├── components/ # React components │ ├── pages/ # React pages │ ├── redux/ # Redux-Toolkit slices and store │ ├── App.js # Main App component │ └── index.js # Entry point └── .env # Environment variables (if needed)
+chat-app/
+│
+├── server/ # Backend code
+│ ├── src/
+│ │ ├── controllers/ # Controllers for handling requests
+│ │ ├── models/ # Mongoose models
+│ │ ├── routes/ # Express routes
+│ │ ├── socket/ # Socket.io setup and events
+│ │ └── app.js # Main app setup
+│ └── .env # Environment variables
+│
+└── client/ # Frontend code
+├── src/
+│ ├── components/ # React components
+│ ├── pages/ # React pages
+│ ├── redux/ # Redux-Toolkit slices and store
+│ ├── App.js # Main App component
+│ └── index.js # Entry point
+└── .env # Environment variables (if needed)
 
 ## Contributing
 
