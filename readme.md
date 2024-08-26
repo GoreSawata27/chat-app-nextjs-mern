@@ -96,3 +96,19 @@ Follow these steps to set up the project locally:
 ## Project Structure
 
 Here's an overview of the project structure:
+
+chat-app/ │ ├── server/ # Backend code │ ├── src/ │ │ ├── controllers/ # Controllers for handling requests │ │ ├── models/ # Mongoose models │ │ ├── routes/ # Express routes │ │ ├── socket/ # Socket.io setup and events │ │ └── app.js # Main app setup │ └── .env # Environment variables │ └── client/ # Frontend code ├── src/ │ ├── components/ # React components │ ├── pages/ # React pages │ ├── redux/ # Redux-Toolkit slices and store │ ├── App.js # Main App component │ └── index.js # Entry point └── .env # Environment variables (if needed)
+
+## Contributing
+
+Contributions are always welcome! Please follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-name`).
+3. Make your changes and commit them (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature-name`).
+5. Open a Pull Request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
