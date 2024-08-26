@@ -117,7 +117,6 @@ chat-app/
 │ ├── App.js # Main App component
 │ └── index.js # Entry point
 └── .env # Environment variables (if needed)
-
 ```
 
 ## Contributing
