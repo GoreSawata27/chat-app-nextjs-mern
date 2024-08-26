@@ -97,6 +97,7 @@ Follow these steps to set up the project locally:
 
 Here's an overview of the project structure:
 
+```bash
 chat-app/
 │
 ├── server/ # Backend code
@@ -116,6 +117,8 @@ chat-app/
 │ ├── App.js # Main App component
 │ └── index.js # Entry point
 └── .env # Environment variables (if needed)
+
+```
 
 ## Contributing
 
