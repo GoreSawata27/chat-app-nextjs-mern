@@ -15,7 +15,7 @@ const port = 6002;
 app.use(cors());
 app.use(express.json());
 
-app.use("/api", allRoutes);
+app.use("/api/v1/", allRoutes);
 
 app.get("/", (req, res) => {
   res.send("<h1>Home route</h1>");
