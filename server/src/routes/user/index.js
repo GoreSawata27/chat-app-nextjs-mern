@@ -5,8 +5,9 @@ import {
   updateUserDetails,
 } from "../../controllers/user/index.js";
 const userRoutes = express.Router();
+import { validateRegistration } from "../../validators/userValidators.js";
 
 // Define routes for posts
-userRoutes.post("/", registerUser);
+userRoutes.post("/", validateRegistration, registerUser);
 
 export default userRoutes;
